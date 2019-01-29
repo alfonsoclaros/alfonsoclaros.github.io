@@ -1,0 +1,69 @@
+body
+{
+    background-color: aliceblue;
+}
+h3 {
+    color: indianred;
+    text-transform: capitalize;
+}
+.container{
+    background-color: azure;
+}
+.row{
+    margin: auto;
+}
+#header{
+    border: solid;
+    border-color: #888888;
+    background-color: antiquewhite;
+}
+#row a {
+  display: block;
+  width: 60px;
+}
+#navBar {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 1;
+    background-color: rgb(153, 153, 153);
+}
+
+.col a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    overflow: auto;
+}
+
+.col a:hover {
+  background-color: #111;
+}
+#dp {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    
+}
+#tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+#tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
