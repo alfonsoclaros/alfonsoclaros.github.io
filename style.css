@@ -32,5 +32,13 @@ body
     margin-right: 25px;
     background-color: red;
     margin-top: 10px;
+    color: black;
     font-family: monospace;
+}
+#c1:hover{
+    width: 300px;
+    height: 300px;
+}
+#c2:hover{
+    color: white;
 }
